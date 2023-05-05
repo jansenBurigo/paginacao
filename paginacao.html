@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo de paginação com efeito hover</title>
+    <style>
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            display: inline-block;
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+
+        .pagination a:hover {
+            background-color: #333;
+            color: #fff;
+            border-color: #333;
+        }
+
+        .pagination a.active {
+            background-color: #333;
+            color: #fff;
+            border-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <main>
+        <article>
+            <h2>.</h2>
+            <p>.</p>
+        </article>
+        <article>
+            <h2>.</h2>
+            <p>.</p>
+        </article>
+        <article>
+            <h2>.</h2>
+            <p>.</p>
+        </article>
+        <article>
+            <h2>.</h2>
+            <p>.</p>
+        </article>
+        <article>
+            <h2>.</h2>
+            <p>.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="pagination">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </div>
+    </footer>
+</body>
+
+</html>
